@@ -1,0 +1,24 @@
+.contact {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.number {
+  color: #555;
+}
+.contactItem {
+  display: flex;
+  flex-direction: row;
+}
+.contactItem p {
+  margin: 0;
+}

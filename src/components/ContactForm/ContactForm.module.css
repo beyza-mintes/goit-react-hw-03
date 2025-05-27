@@ -1,0 +1,10 @@
+.form label {
+  display: block;
+}
+
+.form button {
+  display: block;
+}
+.form {
+  margin: 30px 0 30px;
+}
