@@ -10,15 +10,29 @@
 
 .name {
   font-weight: bold;
+  color: rgb(40, 11, 98);
 }
 
 .number {
-  color: #555;
+  color: rgb(40, 11, 98);
 }
 .contactItem {
   display: flex;
   flex-direction: row;
 }
+
+.contactItem svg {
+  margin-right: 8px;
+  fill: rgb(107, 11, 121);
+}
+
 .contactItem p {
   margin: 0;
+}
+
+.contact button {
+  background-color: rgb(141, 111, 159);
+  border: 1px solid rgb(141, 111, 159);
+  border-radius: 3px;
+  cursor: pointer;
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ContactList from './components/ContactList/ContactList'
 import SearchBox from './components/SearchBox/SearchBox';
 import ContactForm from './components/ContactForm/ContactForm';
+import './App.css'
 
 const App = () => {
 
@@ -46,10 +47,11 @@ const App = () => {
   }, [contacts]);
 
   return (
-    <div>
+
+    <div className='App'>
       <h1>Phonebook</h1>
-      <ContactForm onAddContact={addContact} />
-      <SearchBox value={searchTerm} onChange={handleSearchChange} />
+      <ContactForm className='ContactForm' onAddContact={addContact} />
+      <SearchBox className='SearchBox' value={searchTerm} onChange={handleSearchChange} />
       <ContactList contacts={filteredContacts} onDelete={deleteContact} />
     </div>
   );
